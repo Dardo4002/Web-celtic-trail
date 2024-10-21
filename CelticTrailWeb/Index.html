@@ -1,0 +1,302 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ArmataInsania">
+    <meta name="description" content="VIdeogame web">
+    <title>Celtic Trail</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<header class="header">
+    <div class="Menu-cont">
+        <div class="Logo">
+            <a href="Index.html">
+                <img src="Media/Image/LogoArmataInsania.png" alt="logo">
+            </a>
+        </div>
+        <nav class="Textos">
+            <!-- Checkbox -->
+            <input type="checkbox" id="MenuHamburguesa">
+            <label for="MenuHamburguesa" class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="menu-opt">
+                <li>
+                    <a href="#Info-juego" class="Texto_Menu">Información</a>
+                </li>
+                <li>
+                    <a href="#Lore" class="Texto_Menu">Lore</a>
+                </li>
+                <li>
+                    <a href="#Artbook" class="Texto_Menu">Artbook</a>
+                </li>
+                <li>
+                    <a href="#Contacto" class="Texto_Menu">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <div id="portada">
+        <img src="Media/Image/FondoPantallaPrincipal1.png" alt="Portada Celtic Trail">
+    </div>
+
+    <h4 class="Titulos" id="Info-juego">Información</h4>
+
+    <div class="informacion-juego" id="Info-juego">
+        <div class="caja1-info">
+            <h1 class="TextoClaros">Celtic trail es un bullet-hell de movimiento contínuo en que tendrás que jugar con
+                la longitud del
+                protagonista para derrotar hordas de enemigos mientras recoges mejoras en un frenético gameplay.
+            </h1>
+        </div>
+
+        <div class="caja2-info-video">
+            <iframe controls autoplay muted loop width=100% height=100%
+                src="https://www.youtube.com/embed/S-wQNfCJMsA?controls=1" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QJzt8L_i7_U?controls=0&autoplay=1&mute=1&loop=1&playlist=QJzt8L_i7_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+        </div>
+
+        <div class="caja3-info">
+            <div class="columna1-info">
+                <li>
+                    <h2 class="TextoOscuros">Desarrollador:</h2>
+                    <img src="Media/Image/LogoArmataInsania.png">
+                </li>
+                <li>
+                    <h2 class="TextoOscuros">Duración estimada: 30 minutos</h2>
+                    <img src="Media/Image/logotipo_reloj.png">
+                </li>
+                <li>
+                    <h2 class="TextoOscuros">Pegui: 12</h2>
+                    <img src="Media/Image/PEGI12.png">
+                </li>
+            </div>
+            <div class="columna2-info">
+                <li>
+                    <h2 class="TextoOscuros">Plataforma: PC</h2>
+                    <img src="Media/Image/logotipo_ordenador.png">
+                </li>
+                <li>
+                    <h2 class="TextoOscuros">Género: Rogue-lite, bullet-hell</h2>
+                    <img src="Media/Image/logotipo_bullethell.png">
+                </li>
+                <li>
+                    <h2 class="TextoOscuros">Nicho: Pixel art, vista cenital</h2>
+                    <img src="Media/Image/Escudo.png" id="pixel-art">
+                </li>
+            </div>
+        </div>
+
+        <div class="caja4">
+            <div class="caja4-info">
+                <h1 class="TextoClaros">No te lo pondrán nada fácil, por medio de un sin fin de ordas tratarán de
+                    enfrentarte y
+                    conquistar el mundo.
+                </h1>
+            </div>
+            <div class="caja4-slider">
+                <ul>
+                    <li>
+                        <img src="Media/Image/Enemigos/Arquera.png" id="pixel-art">
+                    </li>
+
+                    <li>
+                        <img src="Media/Image/Enemigos/Ladron.png" id="pixel-art">
+                    </li>
+
+                    <li>
+                        <img src="Media/Image/Enemigos/Phooka.png" id="pixel-art">
+                    </li>
+
+                    <li>
+                        <img src="Media/Image/Enemigos/Fachen.png" id="pixel-art">
+                    </li>
+
+                    <li>
+                        <img src="Media/Image/Enemigos/Ada.png" id="pixel-art">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="caja5">
+            <div class="caja5-slider">
+                <ul>
+                    <li>
+                        <img src="Media/Image/Cartas/Carta1.png" id="pixel-art">
+                    </li>
+
+                    <li>
+                        <img src="Media/Image/Cartas/Carta2.png" id="pixel-art">
+                    </li>
+
+                    <li>
+                        <img src="Media/Image/Cartas/Carta3.png" id="pixel-art">
+                    </li>
+                </ul>
+            </div>
+            <div class="caja5-info">
+                <h1 class="TextoOscuros">Decenas de tarjetas han sido forjadas por los más grandes magos. Estas
+                    confieren grandes poderes
+                    a cambio de una desventaja así que elije sabiamente
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <h4 class="Titulos" id="Lore">Lore</h4>
+
+    <section class="lore">
+        <div class="CajaImagenFondo">
+            <h1>
+                Omnis, el Dios absoluto, se aburría en su eterna soledad. Así que creó un mundo, para ello creó a los 3
+                grandes Dioses: Endovélico, Ogmios y Donn.
+            </h1>
+        </div>
+
+        <h1>
+            Endovélico es el Dios de de la salud y protección, Él creó a las criaturas neutras y del bien. Ogmios es
+            el Dios de la elocuencia y poesía, creó las criaturas mágicas y el mismo sistema de magia. Donn es el
+            Dios de la muerte y oscuridad, creó el dolor, conflictos y criaturas del caos.
+        </h1>
+
+        <div class="CajaImagenFondoDos">
+            <h1>
+                Como residuo de la creación de los 3 grandes nacieron los 5 Dioses menores: Epona, Ataecina, Turán,
+                Cernunos y Morrigan
+            </h1>
+        </div>
+
+        <h1>
+            Cernunos es el Dios de la naturaleza y renacimiento y es el defensor de la naturaleza, atacará a todo
+            aquel que la dañe.
+            Morrigan es la Diosa de la guerra y destrucción, está compuesta por Babd, Macha y Nemain. Busca
+            venganza de Omnis por despreciarla a ella y sus 4 hermanos
+        </h1>
+
+        <img class="image-lore" src="Media/Image/Fondo_lore3.jpg" alt="Imagen lore 3">
+    </section>
+
+    <h4 class="Titulos">Artbook</h4>
+
+    <section class="Artbook" id="Artbook">
+        <div class="Paleta">
+            <h3 class="TextoOscuros" id="PPText">Paleta de colores</h3>
+            <h2 class="TextoOscuros" id="PPText2" id="textPequeños">Elegimos una paleta con muchos colores.</h2>
+            <img src="Media/Image/Artbook/resurrect-64-1x.png" class="pixel-artimg" id="pixel-art">
+        </div>
+
+        <div class="Personaje_Principal">
+            <h3 id="PPText" class="TextoOscuros">Personaje principal</h3>
+            <h2 class="TextoOscuros" id="PPText2">Para el personaje introdujimos diferentes ideas</h2>
+            <li>
+                <img src="Media/Image/Artbook/1716060566791.jpg" id="bocetos">
+                <img src="Media/Image/Artbook/1716060636118.jpg" id="bocetos2">
+                <img src="Media/Image/Artbook/Bocetoserp.jpg" id="bocetos">
+            </li>
+
+            <img src="Media/Image/Artbook/Pruebas tren-serp.png" class="serpienteImg" id="pixel-art">
+
+            <h2 class="TextoOscuros" id="PPText2">Este es el personaje principal:</h2>
+
+            <li class="DibujosPersonaje">
+                <!-- <h2 class="TextoOscuros">Personaje finalizado:</h2> -->
+                <img src="Media/Image/Artbook/Serpiente 2.png" class="serpienteImg" id="pixel-art">
+                <img src="Media/Image/Artbook/Bagon.png" class="serpienteImg" id="pixel-art">
+            </li>
+        </div>
+
+        <div class="Enemigos">
+            <h3 class="TextoOscuros" id="TextoEnemigos">Enemigos</h3>
+
+            <div class="enemigosImg">
+                <div>
+                    <img src="Media/Image/Artbook/Asesino Diseño.png" id="ImagenesEnemigos">
+                    <h2 class="TextoOscuros">Asesino</h2>
+                </div>
+
+                <div>
+                    <img src="Media/Image/Artbook/Arquero Diseño.png" id="ImagenesEnemigos">
+                    <h2 class="TextoOscuros">Arquera</h2>
+                </div>
+
+                <div>
+                    <img src="Media/Image/Artbook/Phooka diseño.png" id="ImagenesEnemigos">
+                    <h2 class="TextoOscuros">Phooka</h2>
+                </div>
+
+                <div>
+                    <img src="Media/Image/Artbook/Fachen.png" id="ImagenesEnemigos">
+                    <h2 class="TextoOscuros">Fachen</h2>
+                </div>
+
+                <div>
+                    <img src="Media/Image/Artbook/hada.png" id="ImagenesEnemigos">
+                    <h2 class="TextoOscuros">Hada</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h4 class="Titulos" id="Contacto">Contacto</h4>
+
+    <div class="footer">
+       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6071.63875165397!2d-3.6700696239418478!3d40.457134571433265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42292a2a67e76f%3A0x7661d685faad2ff8!2sUDIT%20-%20Universidad%20de%20Dise%C3%B1o%20y%20Tecnolog%C3%ADa!5e0!3m2!1ses!2ses!4v1716403280911!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+
+        <div class="segunda-caja-footer">
+            <nav>
+                <h1 class="TextoClaros">Correo:</h1>
+                <form>
+                    <input type="email">
+                </form>
+            </nav>
+
+            <nav>
+                <h1 class="TextoClaros">Mensaje:</h1>
+                <form>
+                    <textarea rows="10">Escribe aquí...</textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </nav>
+        </div>
+    </div>
+    <div class="primera-caja-footer">
+        <img src="Media/Image/LogoArmataInsania.png" alt="LogoArmataInsania">
+    </div>
+</body>
+
+<footer>
+    <nav>
+        <div id="final_pagina">
+            <nav>
+                <h1>Contact: ArmataInsania@gmail.com</h1>
+                <h1>Teléfono: +34 567236571</h1>
+            </nav>
+            <div>
+                <a href="https://www.tiktok.com/@armata.insania?is_from_webapp=1&sender_device=pc"><img
+                        src="Media/Image/tiktok.png"></a>
+
+            </div>
+    </nav>
+</footer>
+
+</html>
